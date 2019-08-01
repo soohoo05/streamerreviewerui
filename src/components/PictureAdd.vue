@@ -36,6 +36,7 @@ export default {
     })
     .then((res)=>{
       this.$store.state.streamer.picture=res.data.picture
+      alert("picture added, refresh the page")
     })
   },
     close() {
